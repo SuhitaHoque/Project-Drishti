@@ -13,10 +13,10 @@ if mode==1:
 elif mode==2:
     currency_detection.detect_currency();
     
-# Medicine
+# Medicine Detection
 elif mode==3:
     medicine_detection.detect_medicine();
-    
+
 # Text Detection
 elif mode==4:
     text_detection.detect_text();
